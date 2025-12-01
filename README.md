@@ -15,4 +15,15 @@ python network.py 0 "[5555, 5556]"
 python network.py 1 "[5555, 5556]"
 ```
 
+# Setup
 
+1. Create a copy of the template (`template`), please name your group folder accordingly.
+   ```bash
+   cp -rf template my-awesome-team
+   ```
+1. Check in:
+   ```bash
+   git add my-aweseome-team
+   git commit -m "updated my-aweseome-team"
+   git fetch && git rebase origin/main && git push origin main
+   ```
